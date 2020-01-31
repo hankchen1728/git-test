@@ -55,6 +55,7 @@ $ git commit -m "first commit"
 $ git remote add origin <ssh_target>
 $ git push -u origin master
 ```
+Each time before `push` 
 
 ## Reference
 [Connecting to GitHub with SSH](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
