@@ -31,6 +31,22 @@ $ ssh -T git@github.com
 ```
 If successed, it will output: `Hi <Github username> You've successfully authenticated, but GitHub does not provide shell access.`
 
+### 5. Configure the `ssh` (optional)
+
+If you use several **key**, then you need to config your ssh as follow:
+
+```
+$ cd ~/.ssh/
+$ vim config
+```
+
+Input the following content:
+
+```
+Host github.com
+    IdentityFile <your private key file for github, e.g. ~/.ssh/id_rsa>
+```
+
 ## Configuring GitHub
 Setting up the configuration details of the GitHub user
 
