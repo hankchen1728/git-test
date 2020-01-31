@@ -52,7 +52,7 @@ $ git config --global user.email "<email_id>"
 ```
 $ git add README.md
 $ git commit -m "first commit"
-$ git remote add origin <url>
+$ git remote add origin <ssh_target>
 $ git push -u origin master
 ```
 
