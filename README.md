@@ -102,6 +102,12 @@ $ git checkout dev
 ```
 ![](imgs/new-branch.png)
 
+Delete a exist branch
+```sh
+$ git branch -d <name>
+```
+![](imgs/delete-branch.png)
+
 ### 3. Remote Repo Management
 Show all the remote repos
 ```sh
